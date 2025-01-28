@@ -2,7 +2,7 @@
 .SYNOPSIS
     
 .DOCUMENTATION
-    https://github.com/msftmroth/MessageStats
+    https://github.com/msftmeyers/messagestats
 
 .DESCRIPTION
     Uses the MessageTrackingLogs of alle Exchange Servers in an Oragnization
