@@ -2,7 +2,7 @@
 .SYNOPSIS
     
 .DOCUMENTATION
-    https://github.com/msftmeyers/messagestats
+    https://github.com/msftmroth/MessageStats
 
 .DESCRIPTION
     Uses the MessageTrackingLogs of alle Exchange Servers in an Oragnization
@@ -166,6 +166,7 @@ function time_pipeline
                 Write-host -NoNewline "`rProcessed $i in $($timer.elapsed.totalseconds) seconds..."
             }
         }
+        $_
     }
     End
     {
